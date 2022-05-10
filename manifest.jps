@@ -1,6 +1,6 @@
 type: install
 jpsVersion: '1.7.2'
-name: WordPress Cluster Kit v2
+name: WordPress High-Performance Cluster
 id: wordpress-cluster
 categories:
   - apps/clusters
@@ -10,7 +10,7 @@ description:
   short: WordPress Cluster with built-in kit v2 for choosing optimal servers, database clustering type, scaling mode and a set of advanced features for highly-loaded projects
 logo: /images/wp-cluster-kit.svg
 
-baseUrl: https://raw.githubusercontent.com/jelastic-jps/wordpress-cluster/v2.1.0
+baseUrl: https://raw.githubusercontent.com/caveim/wordpress-cluster/master
 
 onBeforeInit: /scripts/settings.js?_r=${fn.random}
 onBeforeInstall: /scripts/beforeinstall.js?_r=${fn.random}
